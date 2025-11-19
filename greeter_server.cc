@@ -1,0 +1,10 @@
+#include <grpcpp/grpcpp.h>
+#include "proto/greeter.pb.h"
+#include <iostream>
+using grpc::Server;
+using grpc::ServerBuilder;
+using grpc::ServerContext;
+using grpc::Status;
+using greeter::Greeter;
+using greeter::HelloRequest;
+using greeter::HelloReply;
